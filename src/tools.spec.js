@@ -38,7 +38,26 @@ describe('getAdultUsers return users age > 18', function() {
 describe('getRandomUsers return middle quantity of user', function() {
   it('getRandomUsers should length', () => {
     const use = [{age: 15}, {age: 14}, {age: 28}, {age: 18}, {age: 45}];
-    getRandomUsers(use).length.should.equal(2);
+    getRandomUsers(use).length.should.equal(3);
   });
 });
+
+describe('getRandomUsers num < 0.5', function() {
+  it('getRandomUsers random 0.4', () => {
+    const use = [{age: 15}, {age: 14}, {age: 28}, {age: 18}, {age: 45}];
+    const originRandom = Math.random;
+    Math.random = () => 0.4;
+    getRandomUsers(use).length.should.equal(3);
+});
+});
+
+describe('getRandomUsers num > 0.5', function() {
+  it('getRandomUsers  random 0.6', () => {
+    const use2 = [{age: 15}, {age: 14}, {age: 28}, {age: 18}, {age: 45}];
+    const originRandom2 = Math.random;
+    Math.random = () => 0.12;
+    getRandomUsers(use2).length.should.equal(2);
+  });
+});
+
 
