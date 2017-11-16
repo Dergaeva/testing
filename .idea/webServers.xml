@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="1293799e-74bb-4f8d-a021-697d1362269b" name="deptaxi.ru" url="http://deptaxru.ftp.tools">
+        <fileTransfer host="deptaxru.ftp.tools" port="21" password="dfc8dff0dffedfe4dff3dfc2dfdcdfce" username="deptaxru_ftp">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="13cb8a21-2c45-4c24-b891-f7bc5002920e" name="deptaxi.kz" url="http://deptax00.ftp.tools">
+        <fileTransfer host="deptax00.ftp.tools" port="21" password="dfc9dfe9dffcdf9fdfe0dfe8dfdcdfd0" username="deptax00_ftp">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="6e78d310-0792-453a-acb1-486f0e8da5ac" name="deptaxi.kg" url="http://deptaxi.com.ua">
+        <fileTransfer host="deptaxi.com.ua" port="21" password="dfe2dfcedfc9dfdedfc9dffcdfc7dfce" username="deptax02_ftp">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="5d37bd82-0e25-45d7-bf0c-71a8d458512f" name="deptaxi.com.ua" url="http://deptaxi.ftp.tools">
+        <fileTransfer host="deptaxi.ftp.tools" port="21" password="dfc6dffddf92dfebdfefdfeddfd2dfc7" username="deptaxi_ftp">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
